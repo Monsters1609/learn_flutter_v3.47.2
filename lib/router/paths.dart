@@ -8,5 +8,11 @@ class Paths {
   static const String register = '/register';
   static const String forgotPassword = '/forgotPassword';
   static const String profile = '/profile';
-
+  // products
+  static const String products = '/products';
+  static const String productDetails = '/productDetails';
+  static const String cart = '/cart';
+  static const String checkout = '/checkout';
+  // notification
+  static const String notifications = '/notifications';
 }

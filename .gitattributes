@@ -1,0 +1,15 @@
+# Tự động chuẩn hoá line ending
+* text=auto eol=lf
+
+# Hoặc chỉ định rõ từng loại
+*.dart    text eol=lf
+*.yaml    text eol=lf
+*.md      text eol=lf
+*.gradle  text eol=lf
+
+# File binary — không đụng tới
+*.png     binary
+*.jpg     binary
+*.ico     binary
+*.jar     binary
+*.keystore binary
