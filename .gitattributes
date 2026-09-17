@@ -1,15 +1,22 @@
-# Tự động chuẩn hoá line ending
+# Chuẩn hoá line ending — luôn dùng LF trong repo
 * text=auto eol=lf
 
-# Hoặc chỉ định rõ từng loại
-*.dart    text eol=lf
-*.yaml    text eol=lf
-*.md      text eol=lf
+# Dart/Flutter files
+*.dart text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+*.json text eol=lf
 *.gradle  text eol=lf
 
-# File binary — không đụng tới
-*.png     binary
-*.jpg     binary
-*.ico     binary
-*.jar     binary
+# Binary files - không đụng
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.ttf binary
+*.otf binary
+*.jar binary
 *.keystore binary
+*.jks binary
